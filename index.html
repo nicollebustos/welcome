@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>welcome</title>
+<link rel="icon" type="image/png" href="./img/favicon.png">
+<link id="theme" rel="stylesheet" type="text/css" href="theme.css" />
+<style type="text/css">@import url('https://themes.googleusercontent.com/fonts/css?kit=TzghnhfCn7TuE73f-CBQ0L5bIlN08gaqLW0AEj1FnP4');
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode a {
+    color: #ccff00;
+} 
+</style>
+</head>
+<body>
+
+<header>
+    <li><a href="#">Index</a></li>
+    <li class="cursiva"><a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vSS6xQayof2EO3cUPEE1pgchqtK6olEEXp-X3BSj8r-Bbvjufw2l4WNnXulYMU2oisGtAxv05SQNX85/pub">Diary</a></li>
+    <li><a class="nodispo">Projects</a></li>
+    <li><a href="thoughts.html">Leave a thought</a></li>
+    <li><a href="#" onclick="change();myFunction()" id="theme-toggle">☾⋆</a></li>
+</header>
+
+<img src="img/surf.png">
+<footer><a href="mailto:hotrecipient@hotmail.com">hotrecipient@hotmail.com</a></footer>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+<script>
+  function change() {
+    var x = document.getElementById("theme-toggle");
+  if (x.innerHTML === "☾⋆") {
+    x.innerHTML = "☼";
+  } else {
+    x.innerHTML = "☾⋆";
+  }
+  }
+</script>
+</body>
+</html>

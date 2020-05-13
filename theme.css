@@ -1,0 +1,62 @@
+html {
+    background: #f8f9fa;
+    text-align: center;
+}
+
+body {
+    padding: 10px 0 20px 0;
+    font-family: Space Mono;
+    font-size: 15px;
+    width: 360px;
+    min-height: 568px;
+    display: inline-block;
+    background: white;
+    box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a {
+    color: #bbbbbb;
+}
+
+header li {
+    font-size: 13px;
+    text-transform: lowercase;
+    list-style: none;
+}
+
+li.cursiva {
+    font-family: Pinyon Script;
+    font-size: 120%;
+    margin-top: -1px;
+}
+
+a.nodispo {
+    text-decoration: line-through;
+}
+
+textarea#thoughts {
+    width: 92%;
+    max-width: 92%;
+    margin-top: 20px !important;
+    font-family: Space Mono;
+    color: #bbb;
+    border: 1px solid #00f;
+    background: transparent;
+}
